@@ -85,15 +85,14 @@ header{
     background-size: contain;
     margin-left: 170px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .yellowline > h5{
-   width: 372px;
-   height: 75px;
+   /* width: 372px;
+   height: 75px; */
    font-size: 30px;
    color: white;
-   margin-right: 170px;
+   padding-left: 170px;
    font-family: 'Montserrat', sans-serif;
    font-weight: 700;
    line-height: 45px;
@@ -525,7 +524,7 @@ height: 70px;
     width: 670px;
     height: 635px;
     background-image: url('../images/eat burger.png');
-    background;
+
     margin-top: 126px;
     margin-left: 230px;
 }
@@ -760,6 +759,7 @@ height: 70px;
 .footer-div{
     max-width: 1920px;
     width: 100%;
+    background-image: url('../images/footerbackground.png');
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -785,9 +785,10 @@ height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 5px;
 }
 .discovery{
-    width: 50px;
+    width: 55px;
 }
 .footer-div-2 >h2{
     width: 131px;
@@ -826,11 +827,17 @@ height: 70px;
 .footer-div-4 > h2{
     width: 166px;
     height: 27px;
+    color: #A80E0E;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
 }
 .footer-img{
     display: flex;
     flex-direction: column;
     padding-top: 40px;
+    
 }
 .img1 > img{
     padding-right: 10px;
